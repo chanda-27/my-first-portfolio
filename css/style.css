@@ -16,13 +16,15 @@ h1{
 .header-part{
   color: rgb(42, 165, 52);
 }
-section{
+.flexible-container{
   display: flex;
-  padding-left:50px;
+  margin-bottom: 100px;
 }
 
 .half-width{
   width: 50%;
+  padding-left: 50px;
+
 }
 
 .half-width img{
@@ -41,4 +43,29 @@ section{
 .top-header {
   background-image: url(../images/top-banner.png);
   background-repeat: no-repeat;
+}
+.big-position{
+  color: chartreuse;
+
+}
+.dream-less{
+  color: darkblue;
+}
+.dream-big{
+  background-image: url(../images/middle-banner.png);
+  background-repeat: no-repeat;
+  background-position:right;
+  padding-right: 150px;
+}
+
+.orange-color{
+  color: orange;
+}
+
+.box-shadow{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
 }
